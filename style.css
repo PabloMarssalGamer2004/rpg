@@ -26,6 +26,22 @@ h3{
     color: #183A1D;
 }
 
+h4{
+    font-family:"Cinzel Decorative", serif;
+    color: #183A1D;
+}
+
+h5{
+    font-family:"Cinzel Decorative", serif;
+    color: #183A1D;
+    font-size: 20px;
+}
+h6{
+    font-family:"Cinzel Decorative", serif;
+    color: #183A1D;
+    font-size: 20px;
+}
+
 button{
     background-color: #5a3e36;
     color: #f5f5dc;

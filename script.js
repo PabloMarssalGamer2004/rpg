@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Seleciona o botão "OK" e redireciona para a página principal ou menu
     document.getElementById('okButton').addEventListener('click', function() {
-        window.location.href = 'passo-'; // Substitua 'index.html' pelo caminho para a sua página de menu
+        window.location.href = 'index.html'; // Substitua 'index.html' pelo caminho para a sua página de menu
     });
 
     // Seleciona o botão "Cancelar" e oculta a tela de confirmação
