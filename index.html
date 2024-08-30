@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <title>Uma aventura</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <h1>RPG.ch</h1>
+            <img src="omg.png" alt="">
+            <h2>Contexto.</h2>
+            <p>Você, um jovem aventureiro de um pequeno vilarejo, sempre sonhou em explorar o mundo. Um dia, você encontra um velho viajante que lhe entrega um mapa misterioso, apontando para um lugar chamado "Coração da Terra." O viajante alerta você que a jornada será cheia de desafios e mistérios, mas promete que você descobrirá segredos incríveis se tiver sucesso</p>
+            <p>Seguir a Aventura?</p>
+                <button class="btn-proximo" data-proximo="1">Sim</button>
+                <button class="btn-proximo" id="noButton" data-proximo="2">Não</button>
+            </div>
+            <div class="passo" id="passo-1">
+                <h3>Começo
+                    da aventura</h3>
+                 <p>Você foi até a aventura, cheio de expectativas e coragem, mas, ao chegar ao primeiro destino marcado no mapa, percebeu que algo estava errado. As terras que antes eram descritas como exuberantes e cheias de vida estavam agora sombrias e desoladas. A vegetação murcha e os rios secos indicavam que algo terrível havia acontecido.</p>
+                 <p>Explorar o local?</p>   
+                    <button class="btn-proximo" data-proximo="4">Sim</button>
+                    <button class="btn-proximo" data-proximo="5">Não</button>
+                </div>  
+                <div class="passo" id="passo-2">
+                    <h3>Tem que seguir a aventura!</h3>
+                    <button class="btn-proximo" id="okButton" data-proximo="3">ok</button>
+                </div>  
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
